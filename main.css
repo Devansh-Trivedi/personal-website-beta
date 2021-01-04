@@ -1,0 +1,682 @@
+/* ---- reset ---- */ 
+body{ 
+margin:0; 
+font:normal 75% Arial, 
+Helvetica, 
+sans-serif;
+} 
+
+
+
+/* .large-header {
+    position: relative;
+    text-align: center;
+    
+    width: 100%;
+    background: #262626;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ } */
+ 
+ /* .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ } */
+ 
+ .main-title {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: 75px;
+    font-family: 'Rubik', sans-serif;
+    /* width: 50%; */
+    top: 30%;
+    left: 30%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+ }
+ .header-area h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    color:#fff;
+    font-size: 4.5rem;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+
+ }
+ .header-area span{
+     color:chartreuse;
+ }
+ /* .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ } */
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ /* @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ } */
+
+
+
+/* #header{
+    margin-bottom: 5%;
+} */
+/* canvas
+{ 
+    display: block; 
+}  */
+/* ---- particles.js container ---- */ 
+#particles-js
+{ position:absolute;
+width: 100%; 
+height: 100%; 
+background-color: #262626; 
+background-image: url(""); 
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: 50% 50%; 
+} 
+
+.js-count-particles
+{ font-size: 1.1em; 
+} 
+#stats, .count-particles
+{ -webkit-user-select: none;
+ margin-top: 5px; 
+ margin-left: 5px; 
+} 
+#stats
+{ border-radius: 3px 3px 0 0; 
+    overflow: hidden; 
+} 
+
+
+
+
+/* Responsive Design */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 310px)
+and (max-device-width : 480px) {
+.class{
+    margin-left: 50px;
+}
+#header{
+    width:30px;
+}
+#skills .respSkills{
+    width:20%;
+    margin-left: -100px;
+}
+#experience{
+    margin-left: -30px;
+}
+#homebut{
+    width:80px ;
+}
+#headerName{
+margin-left: -600px;
+margin-top: 100px;
+}
+
+#headerTitle h1{
+    margin-right: 700px;
+}
+#expCard{
+    margin-left: 250px;
+    margin-top: -1060px;
+    margin-bottom: 400px;
+    width: 50%;
+}
+
+
+#header{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 500px;
+    font-weight: lighter;
+}
+.headerfull{
+    margin-right: 580px;
+}
+
+#about{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top: 350px;
+    padding-bottom: 40px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    height: 1500%;
+    position: static;
+    margin-top:650;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(235, 235, 224);
+    padding-bottom: 200px;
+}
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+
+
+#education{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+
+.edu{
+    border-left: 6px solid rgb(34, 32, 32);
+    height: 1000px;
+    left: 50%;
+    margin-left: 50%;
+    position: static;
+    top: 5rem;
+    margin-bottom: 50px;
+}
+
+.exp{
+    border-left: 6px solid rgb(34, 32, 32);
+    height: 1000px;
+    left: 50%;
+    margin-left: 50%;
+    position: static;
+    top: 5rem;
+    margin-bottom: 50px;
+}
+#projects{
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    margin-top: 250px;
+    font-weight: lighter;
+}
+#experience{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+.user p {
+    font-size: 16px
+}
+.tech {
+    margin: 10px;
+    box-shadow: 4px 4px 8px #302e2e;
+   border: 10px,10px,10px,10px;
+}
+.tech:hover{
+    color: #fff;
+    background-color: #2e2929;
+    box-shadow: 4px 8px 25px #302e2e;
+
+}
+.tech:hover i img h2{
+   height:200px;
+   font-size: 85px;
+
+
+}
+i {
+    padding-right:20px ;
+    padding-left:20px ;
+}
+#skills i img {
+    margin: 30px,30px,30px,30px;
+    padding:  50px,50px,50px,50px
+}
+
+
+.user-details {
+    text-align: center;
+    margin: 5px auto
+}
+#skills{
+    padding-left: 40px;
+    padding-right:40px ;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+    margin-bottom: 350px;
+}
+#skills h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.tech:hover h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#skills i {
+    font-size: 65px;
+}
+#skills:hover i {
+
+    font-size: 70px;
+    height:50px;
+}
+#principles{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+#contact{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+#footer{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+
+}
+
+
+
+
+/* Desktops 0and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+
+#expCard{
+    margin-top: 150px;
+    float:right;
+    margin-right: 210px;
+    margin-bottom: 500px;
+}
+#headerName{
+    text-align: center;
+    margin-left: -1300px;
+    
+  
+    }
+
+
+#dateExp{
+    margin-top: -1300px;
+    margin-left: 450px;
+}
+#dateExp div{
+
+    margin-bottom: 260px;
+}
+#headerTitle{
+    width: 10px;
+}
+/* #headerTitle h1{
+    margin-right: 1000px;
+} */
+
+#header{
+    padding-top: 150px;
+    font-size: 30px;
+    margin-bottom: 500px;
+    font-weight: lighter;
+}
+/* .headerfull{
+    margin-right: 580px;
+} */
+
+
+#about{
+    margin-left:40px;
+    margin-right:40px;
+    padding-bottom: 40px;
+    /* padding-top: 150px; */
+    text-align: center;
+    font-size: 30px;
+    height: 1200%;
+    position: static;
+    margin-top:650;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(235, 235, 224);
+    padding-bottom: 200px;
+}
+#about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px
+}
+/* #about p {
+    text-align: left;
+} */
+
+#education{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+/* #education h3 {
+    margin-top: 80rem;
+    margin-bottom: 80rem;
+
+} */
+.edu{
+    border-left: 6px solid rgb(34, 32, 32);
+    height: 900px;
+    left: 50%;
+    margin-left: 50%;
+    position: static;
+    top: 5rem;
+    margin-bottom: 50px;
+}
+#projects{
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    margin-top: 250px;
+    font-weight: lighter;
+}
+#experience{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+    margin-bottom: 1000px;
+}
+.CardExp{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 100%;
+    margin-left: 100px;
+
+}
+.user p {
+    font-size: 16px
+}
+.tech {
+    margin: 10px;
+    box-shadow: 4px 4px 8px #302e2e;
+   border: 10px,10px,10px,10px;
+}
+.tech:hover{
+    color: #fff;
+    background-color: #2e2929;
+    box-shadow: 4px 8px 25px #302e2e;
+
+}
+.tech:hover i img h2{
+   height:200px;
+   font-size: 85px;
+
+
+}
+i {
+    padding-right:20px ;
+    padding-left:20px ;
+}
+#skills i img {
+    margin: 30px,30px,30px,30px;
+    padding:  50px,50px,50px,50px
+}
+
+
+.user-details {
+    text-align: center;
+    margin: 5px auto
+}
+#skills{
+    padding-left: 40px;
+    padding-right:40px ;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+    margin-bottom: 350px;
+}
+#skills h2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.tech:hover h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#skills i {
+    font-size: 65px;
+}
+#skills:hover i {
+
+    font-size: 70px;
+    height:50px;
+}
+#principles{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+#contact{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+#footer{
+    padding-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    position: static;
+    font-weight: lighter;
+}
+
+}
+
+
+
+
+
+/* @media only screen and (min-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+}
+
+
+ */
+
+
+/* @media only screen and (min-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+    #header{
+        width:30%;
+    }
+    /* #education .edu{
+        margin-right: 100px;
+    } */
+    /* .edu{
+        border-left: 6px solid rgb(34, 32, 32);
+        height: 900px;
+        left: 20%;
+        margin-left: 10%;
+        position: static;
+        top: 5rem;
+        margin-bottom: 50px;
+    }
+}
+
+ 
+ */
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+
+/* footer */
+footer {
+    background-color: #141516;
+    color:  #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding:3%;
+  }
+  a.tel,a.tel:hover
+  {
+    text-decoration:none;
+    color:#fff;
+  }
+  a.social-button {
+      background: #fff;
+      font-size: 20px;
+      border-radius: 50%;
+      margin: 5px;
+  }
+  .address-container{
+      display: inline-block;
+      margin: 0 auto;
+  }
+  a.link-facebook,a.link-twitter,a.link-github,a.link-linkedin,a.link-medium
+  {
+    transition:0.4s ease;
+  }
+  /* a.link-twitter
+  {
+    color:#1DA1F2;
+  }
+  a.link-facebook
+  {
+   color: #3b5998;
+  }
+  a.link-linkedin
+  {
+    color:#007bb6;
+  }
+  a.link-instagram
+  {
+    color:#ffffff;
+  } */
+  a.link-facebook:hover{
+    box-shadow: 4px 4px 8px #ffffff;
+  }
+  
+  a.link-twitter:hover{
+    box-shadow: 4px 4px 8px #ffffff;
+
+  }
+  
+  a.link-github:hover{
+    box-shadow: 4px 4px 8px #ffffff;
+
+  }
+  
+  a.link-linkedin:hover{
+    box-shadow: 4px 4px 8px #ffffff;
+
+  }
+  a.link-instagram:hover{
+    box-shadow: 4px 4px 8px #ffffff;
+
+  }
+  .btn-default {
+      color: #333;
+      background-color: #fff;
+      border-color: transparent!important;
+  }
+  .fa-heart {
+    color:#f32323;
+  }
+  h4.author
+  {
+    letter-spacing:4px;
+  }
+  hr.footer-hr
+  {
+    width:150px;
+  }
+  hr.copyright
+  {
+    opacity:0.4;
+  }
